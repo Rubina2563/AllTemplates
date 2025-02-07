@@ -8,6 +8,7 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Services from './pages/Services';
 import City from './pages/City';
+import DemoFrame from './pages/DemoFrame';
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const App: React.FC = () => {
             <Route path="services" element={<Services />} />
             <Route path="contactus" element={<ContactUs />} />
             <Route path="city" element={<City />} />
+            <Route path='demoframe' element={<DemoFrame />} />
           </Route>
         </Routes>
       </main>
